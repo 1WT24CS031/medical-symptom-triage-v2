@@ -1,30 +1,25 @@
 from flask import Flask, redirect, url_for
 
+from config import Config
+
 app = Flask(__name__)
 
-# Secret key for Flask sessions
-app.secret_key = "medical_symptom_triage_secret_key"
+app.secret_key = Config.FLASK_SECRET_KEY
 
-
-# Import blueprints
 from routes.auth import auth
 from routes.predict import predict
 from routes.history import history
 
-
-# Register blueprints
 app.register_blueprint(auth)
 app.register_blueprint(predict)
 app.register_blueprint(history)
 
 
-# Home route
 @app.route("/")
 def home():
     return redirect(url_for("auth.login"))
 
 
-# Run application
 if __name__ == "__main__":
     app.run(
         debug=True,
