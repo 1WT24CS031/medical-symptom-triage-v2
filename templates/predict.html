@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Health Check | Medical Symptom Triage</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     NAVIGATION
+     ===================================================== -->
+
+<header class="navbar">
+
+    <div class="logo">
+
+        <span>✚</span>
+
+        Medical Symptom <b>Triage</b>
+
+    </div>
+
+
+    <nav>
+
+        <a href="/dashboard">
+            Home
+        </a>
+
+        <a href="/predict">
+            Health Check
+        </a>
+
+        <a href="/history">
+            History
+        </a>
+
+    </nav>
+
+
+    <!-- LOGIN / LOGOUT -->
+
+    {% if session.get('user_id') %}
+
+        <a href="/logout" class="login-btn">
+            Logout
+        </a>
+
+    {% else %}
+
+        <a href="/login" class="login-btn">
+            Login
+        </a>
+
+    {% endif %}
+
+</header>
+
+
+
+<!-- =====================================================
+     HEALTH CHECK
+     ===================================================== -->
+
+<main class="checkup-page">
+
+
+    <section class="checkup-header">
+
+
+        <div class="badge">
+
+            🩺 Health Check
+
+        </div>
+
+
+        <h1>
+
+            How are you
+
+            <span>
+                feeling today?
+            </span>
+
+        </h1>
+
+
+        <p>
+
+            Tell us about your symptoms. We'll help you
+            understand them through an AI-assisted assessment.
+
+        </p>
+
+
+    </section>
+
+
+
+    <!-- =================================================
+         MAIN CHECKUP CARD
+         ================================================= -->
+
+    <section class="checkup-card">
+
+
+        <form action="/predict" method="POST">
+
+
+            <label for="symptoms">
+
+                What symptoms are you experiencing?
+
+            </label>
+
+
+            <p class="input-help">
+
+                You can mention one or several symptoms.
+
+            </p>
+
+
+
+            <!-- QUICK SYMPTOMS -->
+
+            <div class="symptom-options">
+
+
+                <button type="button"
+                        onclick="addSymptom('Fever')">
+
+                    🤒 Fever
+
+                </button>
+
+
+                <button type="button"
+                        onclick="addSymptom('Cough')">
+
+                    🤧 Cough
+
+                </button>
+
+
+                <button type="button"
+                        onclick="addSymptom('Headache')">
+
+                    🤕 Headache
+
+                </button>
+
+
+                <button type="button"
+                        onclick="addSymptom('Sore throat')">
+
+                    😷 Sore throat
+
+                </button>
+
+
+                <button type="button"
+                        onclick="addSymptom('Fatigue')">
+
+                    😴 Fatigue
+
+                </button>
+
+
+                <button type="button"
+                        onclick="addSymptom('Nausea')">
+
+                    🤢 Nausea
+
+                </button>
+
+
+            </div>
+
+
+
+            <!-- TEXT BOX -->
+
+            <textarea
+                id="symptoms"
+                name="symptoms"
+                rows="6"
+                placeholder="Example: I have cough, fever and headache for two days..."
+                required></textarea>
+
+
+
+            <!-- ANALYZE BUTTON -->
+
+            <div class="checkup-actions">
+
+
+                <button type="submit"
+                        class="primary-btn analyze-btn">
+
+                    ✨ Analyze My Symptoms
+
+                </button>
+
+
+            </div>
+
+
+
+            <!-- PRIVACY -->
+
+            <div class="privacy-note">
+
+                🔒 Your information is used only for this assessment.
+
+            </div>
+
+
+        </form>
+
+
+    </section>
+
+
+
+    <!-- =================================================
+         SAFETY
+         ================================================= -->
+
+    <section class="checkup-safety">
+
+
+        <span>
+
+            🛡️
+
+        </span>
+
+
+        <div>
+
+
+            <strong>
+
+                Important
+
+            </strong>
+
+
+            <p>
+
+                This tool provides AI-assisted educational information
+                and does not replace a qualified healthcare professional.
+                If you have severe or emergency symptoms, seek immediate
+                professional medical care.
+
+            </p>
+
+
+        </div>
+
+
+    </section>
+
+
+</main>
+
+
+
+<!-- =====================================================
+     QUICK SYMPTOM JAVASCRIPT
+     ===================================================== -->
+
+<script>
+
+
+function addSymptom(symptom) {
+
+    const box = document.getElementById("symptoms");
+
+
+    if (box.value.trim() === "") {
+
+        box.value = symptom;
+
+    } else {
+
+        box.value += ", " + symptom;
+
+    }
+
+
+    box.focus();
+
+}
+
+
+</script>
+
+
+</body>
+
+</html>

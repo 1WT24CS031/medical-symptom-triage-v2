@@ -1,0 +1,93 @@
+symptoms,disease
+"fever, cough, sore throat, runny nose",Common Cold
+"runny nose, sneezing, nasal congestion, sore throat",Common Cold
+"cough, sneezing, mild fever, fatigue",Common Cold
+"sore throat, runny nose, cough, headache",Common Cold
+"cough, fever, chills, body pain, fatigue",Flu
+"high fever, headache, muscle pain, chills, weakness",Flu
+"fever, dry cough, fatigue, body aches",Flu
+"chills, fever, headache, cough, tiredness",Flu
+"sneezing, itchy eyes, runny nose, watery eyes",Allergy
+"itchy nose, sneezing, nasal congestion, watery eyes",Allergy
+"runny nose, sneezing, itchy throat, itchy eyes",Allergy
+"nasal congestion, sneezing, watery eyes, itching",Allergy
+"headache, nausea, vomiting, sensitivity to light",Migraine
+"severe headache, nausea, dizziness, sensitivity to sound",Migraine
+"throbbing headache, vomiting, light sensitivity",Migraine
+"headache, nausea, blurred vision, sensitivity to light",Migraine
+"stomach pain, vomiting, diarrhea, nausea",Gastroenteritis
+"diarrhea, vomiting, abdominal cramps, nausea",Gastroenteritis
+"nausea, stomach cramps, loose stools, vomiting",Gastroenteritis
+"abdominal pain, diarrhea, nausea, weakness",Gastroenteritis
+"burning urination, frequent urination, lower abdominal pain",Urinary Tract Infection
+"frequent urination, painful urination, cloudy urine",Urinary Tract Infection
+"urinary urgency, burning urination, pelvic discomfort",Urinary Tract Infection
+"painful urination, frequent urination, urine odor",Urinary Tract Infection
+"sneezing, sore throat, cough, mild fever",Viral Respiratory Infection
+"cough, congestion, fatigue, sore throat, headache",Viral Respiratory Infection
+"fever, cough, congestion, body aches",Viral Respiratory Infection
+"sore throat, cough, runny nose, tiredness",Viral Respiratory Infection
+"sore throat, swollen tonsils, fever, painful swallowing",Tonsillitis
+"fever, sore throat, enlarged tonsils, difficulty swallowing",Tonsillitis
+"throat pain, swollen tonsils, bad breath, fever",Tonsillitis
+"sore throat, tonsil swelling, difficulty swallowing",Tonsillitis
+"heartburn, chest burning, acid taste, belching",Acid Reflux
+"burning chest after meals, sour taste, regurgitation",Acid Reflux
+"acid taste, heartburn, throat irritation, belching",Acid Reflux
+"upper abdominal burning, heartburn, nausea",Acid Reflux
+"constipation, hard stools, abdominal discomfort, bloating",Constipation
+"difficulty passing stool, hard stool, bloating",Constipation
+"infrequent bowel movements, abdominal cramps, bloating",Constipation
+"hard stools, straining, stomach discomfort",Constipation
+"fatigue, pale skin, dizziness, weakness, shortness of breath",Iron Deficiency Anemia
+"tiredness, pale skin, weakness, dizziness",Iron Deficiency Anemia
+"fatigue, weakness, headache, pale skin",Iron Deficiency Anemia
+"dizziness, tiredness, shortness of breath, weakness",Iron Deficiency Anemia
+"increased thirst, frequent urination, increased hunger, fatigue",Diabetes
+"frequent urination, excessive thirst, blurred vision, fatigue",Diabetes
+"thirst, hunger, tiredness, unexplained weight loss",Diabetes
+"frequent urination, thirst, weakness, blurred vision",Diabetes
+"wheezing, cough, shortness of breath, chest tightness",Asthma
+"breathing difficulty, wheezing, chest tightness, cough",Asthma
+"wheezing, nighttime cough, shortness of breath",Asthma
+"chest tightness, cough, wheezing after exercise",Asthma
+"joint pain, joint stiffness, swelling, reduced movement",Arthritis
+"stiff joints, joint swelling, pain with movement",Arthritis
+"joint pain, morning stiffness, swelling",Arthritis
+"painful joints, stiffness, difficulty moving",Arthritis
+"itchy skin, red rash, dry skin, irritation",Eczema
+"dry itchy skin, red patches, skin irritation",Eczema
+"skin rash, itching, dryness, cracked skin",Eczema
+"itchy red skin, dry patches, inflammation",Eczema
+"back pain, muscle stiffness, pain with movement",Muscle Strain
+"muscle pain, stiffness, soreness after activity",Muscle Strain
+"localized muscle pain, stiffness, tenderness",Muscle Strain
+"muscle soreness, pain after exercise, reduced movement",Muscle Strain
+"tooth pain, swollen gums, sensitivity to hot or cold",Dental Problem
+"toothache, gum swelling, painful chewing",Dental Problem
+"tooth sensitivity, gum pain, bad breath",Dental Problem
+"tooth pain, gum redness, swelling",Dental Problem
+"ear pain, reduced hearing, ear pressure, fever",Ear Infection
+"earache, fever, hearing difficulty, ear pressure",Ear Infection
+"ear pain, fullness in ear, mild fever",Ear Infection
+"ear pressure, earache, reduced hearing",Ear Infection
+"sinus pressure, facial pain, nasal congestion, headache",Sinusitis
+"blocked nose, facial pressure, thick nasal discharge",Sinusitis
+"facial pain, congestion, headache, reduced smell",Sinusitis
+"nasal congestion, sinus pressure, facial tenderness",Sinusitis
+"dizziness, spinning sensation, nausea, balance problems",Vertigo
+"room spinning, dizziness, nausea, balance difficulty",Vertigo
+"spinning sensation, imbalance, nausea",Vertigo
+"dizziness, loss of balance, spinning sensation",Vertigo
+"difficulty sleeping, trouble falling asleep, daytime tiredness",Insomnia
+"poor sleep, waking often, daytime fatigue",Insomnia
+"trouble sleeping, waking during night, tiredness",Insomnia
+"sleep difficulty, daytime sleepiness, restless nights",Insomnia
+"persistent worry, restlessness, racing thoughts, tension",Anxiety
+"excessive worry, nervousness, restlessness, poor concentration",Anxiety
+"feeling anxious, rapid heartbeat, restlessness, worry",Anxiety
+"worry, tension, difficulty concentrating, restlessness",Anxiety
+"low mood, loss of interest, fatigue, sleep changes",Depressive Symptoms
+"persistent sadness, low energy, loss of interest",Depressive Symptoms
+"sad mood, tiredness, poor concentration, sleep changes",Depressive Symptoms
+"loss of interest, fatigue, low mood, appetite changes",Depressive Symptoms

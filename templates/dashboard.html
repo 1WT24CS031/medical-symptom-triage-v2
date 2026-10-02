@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Medical Symptom Triage</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     NAVIGATION
+     ===================================================== -->
+
+<header class="navbar">
+
+    <div class="logo">
+        <span>✚</span>
+        Medical Symptom <b>Triage</b>
+    </div>
+
+
+    <nav>
+
+        <a href="/dashboard">
+            Home
+        </a>
+
+        <a href="/predict">
+            Health Check
+        </a>
+
+        <a href="/history">
+            History
+        </a>
+
+    </nav>
+
+
+    <!-- SESSION-BASED LOGIN / LOGOUT -->
+
+    {% if session.get('user_id') %}
+
+        <a href="/logout" class="login-btn">
+            Logout
+        </a>
+
+    {% else %}
+
+        <a href="/login" class="login-btn">
+            Login
+        </a>
+
+    {% endif %}
+
+</header>
+
+
+
+<!-- =====================================================
+     HERO SECTION
+     ===================================================== -->
+
+<section class="hero">
+
+
+    <!-- LEFT SIDE -->
+
+    <div class="hero-content">
+
+
+        <div class="badge">
+            ✨ AI-powered health assessment
+        </div>
+
+
+        <h1>
+
+            Understand your health,
+
+            <span>
+                one step at a time.
+            </span>
+
+        </h1>
+
+
+        <p>
+
+            Explore your symptoms, answer a few simple
+            questions, and get an easy-to-understand
+            AI-assisted assessment.
+
+        </p>
+
+
+        <!-- Made For -->
+
+        <div class="made-for">
+
+            <span>
+                Made for
+            </span>
+
+
+            <div class="rotating-text">
+
+                <div>you</div>
+
+                <div>your family</div>
+
+                <div>parents & caregivers</div>
+
+                <div>adults</div>
+
+                <div>seniors</div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Buttons -->
+
+        <div class="hero-buttons">
+
+
+            <a href="/predict"
+               class="primary-btn">
+
+                ✨ Start Health Check
+
+            </a>
+
+
+            <a href="/predict"
+               class="secondary-btn">
+
+                💬 Try AI Assistant
+
+            </a>
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- RIGHT SIDE -->
+
+    <div class="hero-visual">
+
+
+        <div class="circle"></div>
+
+
+        <div class="health-card">
+
+
+            <div class="doctor-icon">
+                🩺
+            </div>
+
+
+            <h3>
+                Your health matters
+            </h3>
+
+
+            <p>
+                Let's understand how you're feeling.
+            </p>
+
+
+            <div class="status">
+
+                <span></span>
+
+                AI assistant ready
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =====================================================
+     HOW IT WORKS
+     ===================================================== -->
+
+<section class="section">
+
+
+    <div class="section-title">
+
+
+        <small>
+            HOW IT WORKS
+        </small>
+
+
+        <h2>
+            A simple checkup,
+            made easy.
+        </h2>
+
+
+        <p>
+
+            No complicated forms. Just answer a few
+            questions and let Medical Symptom Triage
+            guide you.
+
+        </p>
+
+
+    </div>
+
+
+
+    <div class="steps">
+
+
+        <!-- STEP 1 -->
+
+        <div class="step-card">
+
+
+            <div class="number">
+                01
+            </div>
+
+
+            <div class="step-icon">
+                🔎
+            </div>
+
+
+            <h3>
+                Tell us how you feel
+            </h3>
+
+
+            <p>
+
+                Describe or select the symptoms
+                you're experiencing.
+
+            </p>
+
+
+        </div>
+
+
+
+        <!-- STEP 2 -->
+
+        <div class="step-card">
+
+
+            <div class="number">
+                02
+            </div>
+
+
+            <div class="step-icon">
+                💬
+            </div>
+
+
+            <h3>
+                Answer a few questions
+            </h3>
+
+
+            <p>
+
+                Follow simple questions that help
+                understand your symptoms.
+
+            </p>
+
+
+        </div>
+
+
+
+        <!-- STEP 3 -->
+
+        <div class="step-card">
+
+
+            <div class="number">
+                03
+            </div>
+
+
+            <div class="step-icon">
+                🧠
+            </div>
+
+
+            <h3>
+                Understand your results
+            </h3>
+
+
+            <p>
+
+                See your AI-assisted assessment
+                and general guidance.
+
+            </p>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =====================================================
+     WHO IS IT FOR
+     ===================================================== -->
+
+<section class="audience-section">
+
+
+    <div class="section-title">
+
+
+        <small>
+            WHO IS IT FOR?
+        </small>
+
+
+        <h2>
+            Health support for everyone.
+        </h2>
+
+
+    </div>
+
+
+
+    <div class="audience-grid">
+
+
+        <!-- YOU -->
+
+        <div class="person-card">
+
+
+            <div class="person-icon">
+                🧑
+            </div>
+
+
+            <h3>
+                For You
+            </h3>
+
+
+            <p>
+
+                Understand symptoms and learn
+                more about your health.
+
+            </p>
+
+
+        </div>
+
+
+
+        <!-- FAMILY -->
+
+        <div class="person-card">
+
+
+            <div class="person-icon">
+                👨‍👩‍👧
+            </div>
+
+
+            <h3>
+                For Families
+            </h3>
+
+
+            <p>
+
+                Keep health assessments organized
+                for your loved ones.
+
+            </p>
+
+
+        </div>
+
+
+
+        <!-- CAREGIVERS -->
+
+        <div class="person-card">
+
+
+            <div class="person-icon">
+                👨‍👧
+            </div>
+
+
+            <h3>
+                Parents & Caregivers
+            </h3>
+
+
+            <p>
+
+                Help organize symptoms and prepare
+                for healthcare visits.
+
+            </p>
+
+
+        </div>
+
+
+
+        <!-- SENIORS -->
+
+        <div class="person-card">
+
+
+            <div class="person-icon">
+                👵
+            </div>
+
+
+            <h3>
+                Seniors
+            </h3>
+
+
+            <p>
+
+                Simple and easy-to-understand
+                health information.
+
+            </p>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =====================================================
+     SAFETY
+     ===================================================== -->
+
+<section class="safety">
+
+
+    <div class="safety-icon">
+        🛡️
+    </div>
+
+
+    <div>
+
+
+        <h2>
+            Your health comes first.
+        </h2>
+
+
+        <p>
+
+            Medical Symptom Triage provides educational,
+            AI-assisted information. It does not replace
+            a qualified healthcare professional or
+            emergency care.
+
+        </p>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- =====================================================
+     FOOTER
+     ===================================================== -->
+
+<footer>
+
+
+    <div class="logo">
+
+        <span>✚</span>
+
+        Medical Symptom <b>Triage</b>
+
+    </div>
+
+
+    <p>
+        Smart health assessment made simple.
+    </p>
+
+
+</footer>
+
+
+
+</body>
+
+</html>

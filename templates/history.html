@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Assessment History</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+
+<body>
+
+
+<!-- Navigation -->
+
+<header class="navbar">
+
+    <div class="logo">
+        <span>✚</span>
+        Medical Symptom <b>Triage</b>
+    </div>
+
+
+    <nav>
+
+        <a href="/dashboard">
+            Home
+        </a>
+
+        <a href="/predict">
+            Health Check
+        </a>
+
+        <a href="/history" class="active">
+            History
+        </a>
+
+    </nav>
+
+
+    <a href="/logout" class="login-btn">
+        Logout
+    </a>
+
+</header>
+
+
+
+<!-- History Page -->
+
+<main class="history-page">
+
+
+    <div class="history-header">
+
+        <div class="badge">
+            📋 Your assessments
+        </div>
+
+        <h1>
+            Assessment History
+        </h1>
+
+        <p>
+            View your previous symptom assessments
+            and results in one place.
+        </p>
+
+    </div>
+
+
+
+    {% if history %}
+
+
+    <div class="history-card">
+
+
+        {% for item in history %}
+
+        <div class="history-item">
+
+
+            <div class="history-icon">
+                🩺
+            </div>
+
+
+            <div class="history-details">
+
+
+                <h3>
+                    {{ item.predicted_condition }}
+                </h3>
+
+
+                <p class="history-symptoms">
+
+                    <strong>Symptoms:</strong>
+
+                    {{ item.symptoms }}
+
+                </p>
+
+
+                <p class="history-date">
+
+                    📅 {{ item.created_at }}
+
+                </p>
+
+
+            </div>
+
+
+            <div class="history-action">
+
+                <a href="/result/{{ item.id }}"
+                   class="view-result-btn">
+
+                    View Result
+
+                </a>
+
+            </div>
+
+
+        </div>
+
+        {% endfor %}
+
+
+    </div>
+
+
+    {% else %}
+
+
+    <!-- No History -->
+
+    <div class="empty-history">
+
+
+        <div class="empty-icon">
+            📋
+        </div>
+
+
+        <h2>
+            No assessments yet
+        </h2>
+
+
+        <p>
+
+            Your previous health assessments
+            will appear here after you complete
+            a health check.
+
+        </p>
+
+
+        <a href="/predict"
+           class="primary-btn">
+
+            ✨ Start Health Check
+
+        </a>
+
+
+    </div>
+
+
+    {% endif %}
+
+
+</main>
+
+
+
+<!-- Footer -->
+
+<footer>
+
+    <div class="logo">
+
+        <span>✚</span>
+
+        Medical Symptom <b>Triage</b>
+
+    </div>
+
+
+    <p>
+        Smart health assessment made simple.
+    </p>
+
+</footer>
+
+
+</body>
+
+</html>
+

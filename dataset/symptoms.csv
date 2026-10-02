@@ -1,0 +1,231 @@
+symptoms,disease
+"fever, cough, sore throat, runny nose",Common Cold
+"runny nose, sneezing, nasal congestion, sore throat",Common Cold
+"cough, sneezing, mild fever, fatigue",Common Cold
+"sore throat, runny nose, cough, headache",Common Cold
+"nasal congestion, mild cough, sneezing, tiredness",Common Cold
+"runny nose, cough, throat irritation, mild fatigue",Common Cold
+"sneezing, blocked nose, sore throat, mild headache",Common Cold
+"cough, runny nose, nasal congestion, tiredness",Common Cold
+"mild fever, sneezing, sore throat, nasal congestion",Common Cold
+"runny nose, cough, headache, throat irritation",Common Cold
+"cough, fever, chills, body pain, fatigue",Flu
+"high fever, headache, muscle pain, chills, weakness",Flu
+"fever, dry cough, fatigue, body aches",Flu
+"chills, fever, headache, cough, tiredness",Flu
+"high fever, body aches, dry cough, weakness",Flu
+"fever, chills, muscle aches, headache, fatigue",Flu
+"dry cough, fever, headache, body pain, tiredness",Flu
+"fever, weakness, chills, muscle soreness, cough",Flu
+"body aches, high fever, headache, chills, fatigue",Flu
+"fever, cough, muscle pain, weakness, chills",Flu
+"sneezing, itchy eyes, runny nose, watery eyes",Allergy
+"itchy nose, sneezing, nasal congestion, watery eyes",Allergy
+"runny nose, sneezing, itchy throat, itchy eyes",Allergy
+"nasal congestion, sneezing, watery eyes, itching",Allergy
+"sneezing, itchy nose, watery eyes, nasal congestion",Allergy
+"runny nose, itchy eyes, throat irritation, sneezing",Allergy
+"itchy throat, sneezing, blocked nose, watery eyes",Allergy
+"nasal congestion, itchy nose, sneezing, eye irritation",Allergy
+"watery eyes, runny nose, itching, repeated sneezing",Allergy
+"sneezing, nasal blockage, itchy eyes, runny nose",Allergy
+"headache, nausea, vomiting, sensitivity to light",Migraine
+"severe headache, nausea, dizziness, sensitivity to sound",Migraine
+"throbbing headache, vomiting, light sensitivity",Migraine
+"headache, nausea, blurred vision, sensitivity to light",Migraine
+"throbbing head pain, nausea, sensitivity to light, fatigue",Migraine
+"severe headache, vomiting, sensitivity to sound, dizziness",Migraine
+"one-sided headache, nausea, light sensitivity, weakness",Migraine
+"pulsing headache, nausea, sound sensitivity, fatigue",Migraine
+"head pain, vomiting, blurred vision, light sensitivity",Migraine
+"severe headache, nausea, dizziness, sensitivity to light",Migraine
+"stomach pain, vomiting, diarrhea, nausea",Gastroenteritis
+"diarrhea, vomiting, abdominal cramps, nausea",Gastroenteritis
+"nausea, stomach cramps, loose stools, vomiting",Gastroenteritis
+"abdominal pain, diarrhea, nausea, weakness",Gastroenteritis
+"loose stools, stomach pain, vomiting, abdominal cramps",Gastroenteritis
+"diarrhea, nausea, stomach cramps, weakness",Gastroenteritis
+"vomiting, abdominal discomfort, loose stools, nausea",Gastroenteritis
+"stomach cramps, diarrhea, vomiting, fatigue",Gastroenteritis
+"abdominal pain, loose stools, nausea, tiredness",Gastroenteritis
+"diarrhea, stomach discomfort, vomiting, weakness",Gastroenteritis
+"burning urination, frequent urination, lower abdominal pain",Urinary Tract Infection
+"frequent urination, painful urination, cloudy urine",Urinary Tract Infection
+"urinary urgency, burning urination, pelvic discomfort",Urinary Tract Infection
+"painful urination, frequent urination, urine odor",Urinary Tract Infection
+"burning while urinating, urinary urgency, lower abdominal discomfort",Urinary Tract Infection
+"frequent urination, bladder discomfort, painful urination",Urinary Tract Infection
+"painful urination, cloudy urine, urinary frequency",Urinary Tract Infection
+"urinary urgency, pelvic discomfort, burning urination",Urinary Tract Infection
+"frequent urination, lower abdominal pain, burning sensation",Urinary Tract Infection
+"burning urination, urinary frequency, cloudy urine",Urinary Tract Infection
+"sneezing, sore throat, cough, mild fever",Viral Respiratory Infection
+"cough, congestion, fatigue, sore throat, headache",Viral Respiratory Infection
+"fever, cough, congestion, body aches",Viral Respiratory Infection
+"sore throat, cough, runny nose, tiredness",Viral Respiratory Infection
+"cough, nasal congestion, mild fever, fatigue",Viral Respiratory Infection
+"runny nose, cough, sore throat, body aches",Viral Respiratory Infection
+"nasal congestion, cough, headache, tiredness",Viral Respiratory Infection
+"mild fever, sore throat, congestion, fatigue",Viral Respiratory Infection
+"cough, runny nose, headache, mild weakness",Viral Respiratory Infection
+"sore throat, nasal congestion, cough, mild fever",Viral Respiratory Infection
+"sore throat, swollen tonsils, fever, painful swallowing",Tonsillitis
+"fever, sore throat, enlarged tonsils, difficulty swallowing",Tonsillitis
+"throat pain, swollen tonsils, bad breath, fever",Tonsillitis
+"sore throat, tonsil swelling, difficulty swallowing",Tonsillitis
+"swollen tonsils, throat pain, fever, painful swallowing",Tonsillitis
+"enlarged tonsils, sore throat, fever, bad breath",Tonsillitis
+"tonsil swelling, difficulty swallowing, throat pain, fever",Tonsillitis
+"fever, swollen tonsils, sore throat, throat irritation",Tonsillitis
+"painful swallowing, enlarged tonsils, throat pain, bad breath",Tonsillitis
+"sore throat, tonsil inflammation, fever, difficulty swallowing",Tonsillitis
+"heartburn, chest burning, acid taste, belching",Acid Reflux
+"burning chest after meals, sour taste, regurgitation",Acid Reflux
+"acid taste, heartburn, throat irritation, belching",Acid Reflux
+"upper abdominal burning, heartburn, nausea",Acid Reflux
+"heartburn after eating, sour taste, belching, throat irritation",Acid Reflux
+"chest burning, acid taste, regurgitation, nausea",Acid Reflux
+"burning sensation after meals, heartburn, belching",Acid Reflux
+"sour taste in mouth, chest discomfort, heartburn, belching",Acid Reflux
+"throat irritation, acid reflux, heartburn, sour taste",Acid Reflux
+"upper stomach burning, sour taste, nausea, heartburn",Acid Reflux
+"constipation, hard stools, abdominal discomfort, bloating",Constipation
+"difficulty passing stool, hard stool, bloating",Constipation
+"infrequent bowel movements, abdominal cramps, bloating",Constipation
+"hard stools, straining, stomach discomfort",Constipation
+"hard stool, abdominal bloating, difficulty passing stool",Constipation
+"infrequent stools, stomach discomfort, straining",Constipation
+"constipation, abdominal cramps, hard bowel movements",Constipation
+"difficulty passing stool, bloating, abdominal discomfort",Constipation
+"hard stools, bloating, straining during bowel movements",Constipation
+"reduced bowel movements, hard stool, abdominal discomfort",Constipation
+"fatigue, pale skin, dizziness, weakness, shortness of breath",Iron Deficiency Anemia
+"tiredness, pale skin, weakness, dizziness",Iron Deficiency Anemia
+"fatigue, weakness, headache, pale skin",Iron Deficiency Anemia
+"dizziness, tiredness, shortness of breath, weakness",Iron Deficiency Anemia
+"pale skin, fatigue, weakness, headache",Iron Deficiency Anemia
+"tiredness, dizziness, weakness, shortness of breath",Iron Deficiency Anemia
+"fatigue, pale appearance, dizziness, low energy",Iron Deficiency Anemia
+"weakness, headache, pale skin, tiredness",Iron Deficiency Anemia
+"shortness of breath, fatigue, dizziness, weakness",Iron Deficiency Anemia
+"low energy, pale skin, tiredness, weakness",Iron Deficiency Anemia
+"increased thirst, frequent urination, increased hunger, fatigue",Diabetes
+"frequent urination, excessive thirst, blurred vision, fatigue",Diabetes
+"thirst, hunger, tiredness, unexplained weight loss",Diabetes
+"frequent urination, thirst, weakness, blurred vision",Diabetes
+"excessive thirst, frequent urination, fatigue, blurred vision",Diabetes
+"increased hunger, thirst, frequent urination, tiredness",Diabetes
+"unexplained weight loss, increased thirst, frequent urination",Diabetes
+"frequent urination, increased hunger, weakness, thirst",Diabetes
+"blurred vision, excessive thirst, fatigue, frequent urination",Diabetes
+"thirst, frequent urination, unexplained weight loss, weakness",Diabetes
+"wheezing, cough, shortness of breath, chest tightness",Asthma
+"breathing difficulty, wheezing, chest tightness, cough",Asthma
+"wheezing, nighttime cough, shortness of breath",Asthma
+"chest tightness, cough, wheezing after exercise",Asthma
+"shortness of breath, wheezing, cough, chest tightness",Asthma
+"wheezing, coughing, difficulty breathing, chest tightness",Asthma
+"nighttime cough, wheezing, breathing difficulty",Asthma
+"cough, wheezing, shortness of breath after activity",Asthma
+"chest tightness, breathing difficulty, wheezing",Asthma
+"recurrent cough, wheezing, shortness of breath, chest tightness",Asthma
+"joint pain, joint stiffness, swelling, reduced movement",Arthritis
+"stiff joints, joint swelling, pain with movement",Arthritis
+"joint pain, morning stiffness, swelling",Arthritis
+"painful joints, stiffness, difficulty moving",Arthritis
+"joint swelling, stiffness, pain during movement",Arthritis
+"morning joint stiffness, joint pain, reduced movement",Arthritis
+"painful swollen joints, stiffness, difficulty moving",Arthritis
+"joint discomfort, swelling, stiffness, limited movement",Arthritis
+"joint pain, stiffness after rest, swelling",Arthritis
+"stiff painful joints, swelling, reduced mobility",Arthritis
+"itchy skin, red rash, dry skin, irritation",Eczema
+"dry itchy skin, red patches, skin irritation",Eczema
+"skin rash, itching, dryness, cracked skin",Eczema
+"itchy red skin, dry patches, inflammation",Eczema
+"dry skin, itchy rash, redness, irritation",Eczema
+"red patches, dry skin, itching, skin irritation",Eczema
+"itchy skin, cracked skin, dryness, redness",Eczema
+"skin inflammation, itching, dry patches, rash",Eczema
+"dry itchy patches, skin redness, irritation",Eczema
+"red itchy rash, dry skin, cracked areas",Eczema
+"back pain, muscle stiffness, pain with movement",Muscle Strain
+"muscle pain, stiffness, soreness after activity",Muscle Strain
+"localized muscle pain, stiffness, tenderness",Muscle Strain
+"muscle soreness, pain after exercise, reduced movement",Muscle Strain
+"muscle pain, tenderness, stiffness after activity",Muscle Strain
+"localized soreness, muscle stiffness, pain with movement",Muscle Strain
+"back muscle pain, stiffness, tenderness",Muscle Strain
+"muscle soreness after exercise, stiffness, reduced movement",Muscle Strain
+"muscle tenderness, pain after physical activity, stiffness",Muscle Strain
+"localized muscle soreness, pain with movement, tenderness",Muscle Strain
+"tooth pain, swollen gums, sensitivity to hot or cold",Dental Problem
+"toothache, gum swelling, painful chewing",Dental Problem
+"tooth sensitivity, gum pain, bad breath",Dental Problem
+"tooth pain, gum redness, swelling",Dental Problem
+"toothache, gum tenderness, sensitivity to cold",Dental Problem
+"painful tooth, swollen gums, discomfort while chewing",Dental Problem
+"tooth sensitivity, gum redness, bad breath",Dental Problem
+"tooth pain, gum swelling, sensitivity to hot drinks",Dental Problem
+"gum pain, toothache, swelling, painful chewing",Dental Problem
+"tooth discomfort, gum redness, sensitivity to cold",Dental Problem
+"ear pain, reduced hearing, ear pressure, fever",Ear Infection
+"earache, fever, hearing difficulty, ear pressure",Ear Infection
+"ear pain, fullness in ear, mild fever",Ear Infection
+"ear pressure, earache, reduced hearing",Ear Infection
+"earache, fever, muffled hearing, ear pressure",Ear Infection
+"ear pain, hearing difficulty, pressure in ear",Ear Infection
+"ear fullness, pain, mild fever, reduced hearing",Ear Infection
+"earache, blocked ear feeling, fever, hearing changes",Ear Infection
+"ear pressure, pain, muffled hearing, mild fever",Ear Infection
+"ear pain, fullness, reduced hearing, discomfort",Ear Infection
+"sinus pressure, facial pain, nasal congestion, headache",Sinusitis
+"blocked nose, facial pressure, thick nasal discharge",Sinusitis
+"facial pain, congestion, headache, reduced smell",Sinusitis
+"nasal congestion, sinus pressure, facial tenderness",Sinusitis
+"blocked nose, facial pressure, headache, thick nasal discharge",Sinusitis
+"sinus pressure, headache, nasal congestion, reduced smell",Sinusitis
+"facial tenderness, blocked nose, congestion, headache",Sinusitis
+"nasal blockage, facial pain, thick discharge, pressure",Sinusitis
+"sinus headache, facial pressure, congestion, reduced smell",Sinusitis
+"facial discomfort, nasal congestion, sinus pressure, headache",Sinusitis
+"dizziness, spinning sensation, nausea, balance problems",Vertigo
+"room spinning, dizziness, nausea, balance difficulty",Vertigo
+"spinning sensation, imbalance, nausea",Vertigo
+"dizziness, loss of balance, spinning sensation",Vertigo
+"room spinning, nausea, balance problems, dizziness",Vertigo
+"spinning feeling, dizziness, difficulty balancing",Vertigo
+"dizziness, nausea, spinning sensation, unsteady walking",Vertigo
+"loss of balance, room spinning, nausea",Vertigo
+"spinning sensation, imbalance, dizziness, nausea",Vertigo
+"dizziness, balance difficulty, spinning feeling",Vertigo
+"difficulty sleeping, trouble falling asleep, daytime tiredness",Insomnia
+"poor sleep, waking often, daytime fatigue",Insomnia
+"trouble sleeping, waking during night, tiredness",Insomnia
+"sleep difficulty, daytime sleepiness, restless nights",Insomnia
+"difficulty falling asleep, nighttime waking, daytime fatigue",Insomnia
+"poor sleep, tiredness during day, trouble staying asleep",Insomnia
+"frequent waking, difficulty sleeping, daytime sleepiness",Insomnia
+"restless sleep, trouble falling asleep, daytime tiredness",Insomnia
+"sleep problems, nighttime waking, low daytime energy",Insomnia
+"difficulty sleeping, restless nights, daytime fatigue",Insomnia
+"persistent worry, restlessness, racing thoughts, tension",Anxiety
+"excessive worry, nervousness, restlessness, poor concentration",Anxiety
+"feeling anxious, rapid heartbeat, restlessness, worry",Anxiety
+"worry, tension, difficulty concentrating, restlessness",Anxiety
+"persistent worry, nervousness, racing thoughts, tension",Anxiety
+"excessive worrying, restlessness, difficulty concentrating",Anxiety
+"nervousness, racing thoughts, tension, poor concentration",Anxiety
+"worry, restlessness, rapid heartbeat, nervousness",Anxiety
+"feeling tense, excessive worry, restlessness, difficulty focusing",Anxiety
+"persistent nervousness, worry, racing thoughts, restlessness",Anxiety
+"low mood, loss of interest, fatigue, sleep changes",Depressive Symptoms
+"persistent sadness, low energy, loss of interest",Depressive Symptoms
+"sad mood, tiredness, poor concentration, sleep changes",Depressive Symptoms
+"loss of interest, fatigue, low mood, appetite changes",Depressive Symptoms
+"persistent low mood, fatigue, reduced interest, sleep changes",Depressive Symptoms
+"sadness, low energy, difficulty concentrating, loss of interest",Depressive Symptoms
+"low mood, tiredness, appetite changes, reduced interest",Depressive Symptoms
+"loss of interest, poor sleep, fatigue, persistent sadness",Depressive Symptoms
+"low energy, sadness, concentration difficulty, sleep changes",Depressive Symptoms
+"persistent sadness, fatigue, appetite changes, loss of interest",Depressive Symptoms
