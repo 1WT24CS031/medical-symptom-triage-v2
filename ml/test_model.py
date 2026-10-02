@@ -1,8 +1,8 @@
 import joblib
 
-# Load saved model and vectorizer
+
+# Load the trained model pipeline
 model = joblib.load("models/model.pkl")
-vectorizer = joblib.load("models/vectorizer.pkl")
 
 
 # Test different symptom combinations
@@ -20,15 +20,15 @@ print("====================================")
 print("MEDICAL SYMPTOM TRIAGE - MODEL TEST")
 print("====================================")
 
+
 for symptoms in test_cases:
 
-    symptoms_vector = vectorizer.transform([symptoms])
-
-    prediction = model.predict(symptoms_vector)
+    prediction = model.predict([symptoms])
 
     print()
     print("Symptoms:", symptoms)
     print("Predicted:", prediction[0])
+
 
 print()
 print("====================================")
